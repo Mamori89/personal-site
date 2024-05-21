@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mario Momirov || Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="navbar.js" defer></script>
+</head>
+
+<body>
+    <div class="grid-container">
+        <div class="navbar" id="navbar">
+            <video autoplay muted class="background-video">
+                <source src="./assets/navbar-mp4.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <ul>
+                <a href="#about">
+                    <li class="nav-item">About me</li>
+                </a>
+                <a href="#portfolio">
+                    <li class="nav-item">Portfolio</li>
+                </a>
+                <a href="#resume">
+                    <li class="nav-item">Resume</li>
+                </a>
+                <a href="#contact">
+                    <li class="nav-item">Contact me</li>
+                </a>
+            </ul>
+        </div>
+        <div class="flex-container-hero">
+            <section id="about" class="hero">
+                <div class="hero-container">
+                    <div class="image-container">
+                        <img class="portrait" src="./assets/portrait.jpg" alt="portrait of myself" height="270px">
+                    </div>
+                    <div class="text-container">
+                        <h1 class="hero-header">Mario Momirov</h1>
+                        <p class="hero-text">I am building this website as my first stepping stone into the professional
+                            development-world!</p>
+                    </div>
+                    <div class="subtext-container">
+                        <h3 class="subtext-header">Sooo, who am i?</h3>
+                        <p class="hero-subtext">I started to learn Coding in 2024 and fell in love with it since then. I
+                            really want to become a developer as my profession and will attend a bootcamp in about 1
+                            month. I will keep this Portfolio Page updated as i go through the Curriculum. Feel free to
+                            contact me for any questions! Dont forget to follow me on GitHub to see my Progress.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <div class="portfolio-container">
+        <section id="portfolio" class="portfolio">
+            <div class="portfolio-images">
+                <div class="portfolio-item">
+                    <a href="https://mamori89.github.io/tindog/"><img class="portfolio-image one"
+                            src="./portfolio/tindog-bootstrap.png" alt="tindog" height="350"></a>
+                    <h3 class="portfolio-header">Tindog</h3>
+                    <p class="portfolio-description">Had great fun finishing this awesome Project with the Bootstrap
+                        Framework in the Course with <a class="portfolio-link"
+                            href="https://www.udemy.com/course/the-complete-web-development-bootcamp/?couponCode=LEADERSALE24B">Dr.
+                            Angela Yu</a>- total recommendation if you're trying to get into Web Development!</p>
+                </div>
+                <div class="portfolio-item">
+                    <a href="https://mamori89.github.io/first-bootstrap-demosite/"><img class="portfolio-image two"
+                            src="./portfolio/moving-company-bootstrap.png" alt="moving-company-page" height="350"></a>
+                    <h3 class="portfolio-header">Move it</h3>
+                    <p class="portfolio-description">The first Website i made with Examples from the Bootstrap
+                        Framework. I am enjoying being able to get a Website quickly up and running if i need to.</p>
+                </div>
+                <div class="portfolio-item">
+                    <a href="https://mamori89.github.io/landing-page/"><img class="portfolio-image three"
+                            src="./portfolio/landing-page.png" alt="landing-page" height="350"></a>
+                    <h3 class="portfolio-header">Landing Page</h3>
+                    <p class="portfolio-description">This is one of the first bigger Projects i ever did - all the
+                        alignments pretty much are done using Flexbox. It was part of the Curriculum from <a class="portfolio-link"
+                            href="https://www.theodinproject.com/">The Odin Project.</a></p>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="flex-resume-container">
+        <div class="resume-container">
+            <section id="resume" class="resume">
+                <h2 class="resume-header">Resume</h2>
+                <p>My strongest characteristics are my well built problem solving skills and my dedication to detail.
+                </p>
+                <hr class="gradient-background" />
+                <h2>Education</h2>
+                <ul>
+                    <li>Final apprenticeship exam, retail merchant - Professional School Eisenstadt (2006-2010) </li>
+                </ul>
+                <hr class="gradient-background" />
+                <h2>Work Experience</h2>
+                <ul>
+                    <li>
+                        <h3>Senior Customs Clearance Agent - DHL Express Austria</h3>
+                        <p>03. Apr 2018 - 30 Jun 2023</p>
+                        <ul>
+                            <li>Handling of all customs procedures</li>
+                            <li>Communication with authorities and clients</li>
+                            <li>Verification of plausibility and requests for correct documentation</li>
+                            <li>Verification of goods origin declarations</li>
+                            <li>Ensuring compliance with customs regulations</li>
+                            <li>Independent classification of various goods categories</li>
+                            <li>Preparation of customs documents</li>
+                            <li>Ensuring and analyzing KPIs</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>Undertaker's Assistant - PAX DieBestattung GmbH</h3>
+                        <p>1. Sep 2017 - 30. Nov 2017</p>
+                        <ul>
+                            <li>Arrangement, organization, and execution of funeral ceremonies</li>
+                            <li>Embalming and preparing the deceased</li>
+                            <li>Repatriation of the deceased</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>Store Manager - Charles Vögele Austria GmbH</h3>
+                        <p>3. Apr 2017 - 30 Jun 2017</p>
+                        <ul>
+                            <li>Sales</li>
+                            <li>Handling of phone inquiries from customers</li>
+                            <li>Cash register and inventory activities</li>
+                            <li>Inventory management</li>
+                            <li>Personnel management and scheduling</li>
+                            <li>Coordination of service orders</li>
+                            <li>Ensuring achievement of target objectives</li>
+                            <li>Analysis of business performance indicators</li>
+                            <li>Optimal budget management</li>
+                            <li>Point of contact for central administration, area management, and personnel</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>Store Manager - GameStop Austria GmbH</h3>
+                        <p>1. Dec 2013 - 31 Dec 2015</p>
+                        <ul>
+                            <li>Sales</li>
+                            <li>Handling of phone inquiries from customers</li>
+                            <li>Cash register and inventory activities</li>
+                            <li>Inventory management</li>
+                            <li>Personnel management and scheduling</li>
+                            <li>Coordination of service orders</li>
+                            <li>Ensuring achievement of target objectives</li>
+                            <li>Analysis of business performance indicators</li>
+                            <li>Optimal budget management</li>
+                            <li>Point of contact for central administration, area management, and personnel</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>Sales Assistant - Niedermeyer GmbH</h3>
+                        <p>2. Apr 2012 - 31 Mar 2013</p>
+                        <ul>
+                            <li>Customer consultation</li>
+                            <li>Sales</li>
+                            <li>Handling of telephone customer inquiries</li>
+                            <li>Cash register and inventory tasks</li>
+                            <li>Inventory Management</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>Sales Assistant - Paul Bständig GmbH</h3>
+                        <p>1. Feb 2011 - 3. Aug 2011</p>
+                        <ul>
+                            <li>Customer consultation</li>
+                            <li>Sales</li>
+                            <li>Handling of telephone customer inquiries</li>
+                            <li>Cash register and inventory tasks</li>
+                            <li>Inventory Management</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>Sales Assistant - Ortoproban Leitner GmbH & CO. KG</h3>
+                        <p>1. Jul 2010 - 22. Oct 2010</p>
+                        <ul>
+                            <li>Customer consultation</li>
+                            <li>Sales</li>
+                            <li>Handling of telephone customer inquiries</li>
+                            <li>Cash register and inventory tasks</li>
+                            <li>Inventory Management</li>
+                        </ul>
+                    </li>
+                </ul>
+                <h2>Soft Skills</h2>
+                <ul>
+                    <li>Problem solving</li>
+                    <li>Great communication skills</li>
+                    <li>Management skills</li>
+                    <li>Social skills</li>
+                    <li>Team skills</li>
+                    <li>Attention to detail</li>
+                    <li>Advanced computer skills</li>
+                </ul>
+            </section>
+        </div>
+    </div>
+    <div class="flex-container gradient-background">
+        <section id="contact" class="contact">
+            <h2 class="contact-header">Contact me</h2>
+            <div class="contact-container">
+                <a href="https://github.com/Mamori89"><img src="./assets/github-mark-white.svg" alt="github-mark" height="150px"></a>
+                <a href="mailto:mario.momirov1@gmx.at?subject=&body="><img src="./assets/email-svgrepo-com.svg" alt="mail picture" height="150"></a>
+            </div>
+        </section>
+    </div>
+    <footer>
+        © Mario Momirov. All rights reserved.
+    </footer>
+    <button id="scrollToTopBtn" class="scroll-to-top-btn">↑</button>
+</body>
+
+</html>
